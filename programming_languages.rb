@@ -1,15 +1,5 @@
 languages = {
-      :oo => {
-        :javascript => {
-          :type => "interpreted"
-        }
-      },
-      :functional => {
-        :javascript => {
-          :type => "interpreted"
-        }
-      }
-    }
+
     
     
 def reformat_languages(languages)
