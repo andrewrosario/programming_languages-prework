@@ -43,7 +43,7 @@ def reformat_languages(languages)
       type_hash.each do |type_symbol, name_of_type|
         if !new_hash[language_names].key?(type_symbol)
           puts "add type"
-          new_hash[language_names][type_symbol] = type
+          new_hash[language_names][type_symbol] = name_of_type
         end
       end
     end
