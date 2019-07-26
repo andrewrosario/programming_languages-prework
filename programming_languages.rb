@@ -29,6 +29,8 @@ languages = {
      
       }
     }
+    }
+    
     
     
 def reformat_languages(languages)
