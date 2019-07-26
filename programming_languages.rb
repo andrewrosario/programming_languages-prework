@@ -35,8 +35,8 @@ languages = {
     
 def reformat_languages(languages)
   languages.each do |style, hash|
-    return style 
-    return hash
+    puts style 
+    puts hash
     style.each do |language_names, type_hash|
       
     end
