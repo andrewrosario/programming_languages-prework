@@ -37,7 +37,7 @@ def reformat_languages(languages)
   languages.each do |style, hash|
     puts style
     puts hash
-    style.each do |language_names, type_hash|
+    hash.each do |language_names, type_hash|
       
     end
     
